@@ -73,13 +73,10 @@ body {
   padding-right: 15px;
 }
 
-.page-header {
-  padding: 24px 0;
-}
-
 .page-header-container {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .page-nav {
@@ -121,11 +118,6 @@ body {
   color: var(--dark-color);
 }
 
-.logo-partfolio-border {
-  border-color: var(--light-color);
-  border-bottom: 0.5px solid;
-}
-
 .menu-link {
   font-weight: 500;
   line-height: 1.5;
@@ -133,6 +125,11 @@ body {
   color: var(--dark-color);
 }
 
+.link-item-block {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .menu-link:hover,
 .menu-link:focus {
   color: var(--body-text-color);
@@ -144,7 +141,6 @@ body {
 
 .contact-email,
 .contact-phone {
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
@@ -164,6 +160,7 @@ body {
   background-color: var(--dark-color);
   padding-top: 192px;
   padding-bottom: 192px;
+  text-align: center;
 }
 .hero-header {
   font-weight: 700;
@@ -173,12 +170,10 @@ body {
   color: var(--bgrnd-color);
   text-align: center;
   margin: auto;
-  margin-bottom: 48px;
   width: 500px;
 }
 
 .hero-btn {
-  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -186,7 +181,7 @@ body {
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
   font-family: var(--primary-font);
-  margin: 0 auto;
+  margin-top: 48px;
   min-width: 170px;
   padding-top: 16px;
   padding-right: 32px;
@@ -194,6 +189,7 @@ body {
   padding-left: 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .hero-btn:hover,
@@ -207,9 +203,7 @@ body {
 
 .strategy-list {
   display: flex;
-  align-items: center;
   column-gap: 24px;
-  flex-wrap: wrap;
 }
 .strategy {
   padding-top: 120px;
@@ -219,7 +213,7 @@ body {
   padding-bottom: 120px;
 }
 .strategy-item {
-  width: 264px;
+  flex-basis: calc((100% - (3 * 24px)) / 4);
 }
 
 .strategy-header {
@@ -234,7 +228,6 @@ body {
 .strategy-text {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--body-text-color);
 }
 
@@ -260,14 +253,12 @@ body {
 
 .team {
   background-color: var(--light-color);
-  padding-top: 120px;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 72px;
   column-gap: 24px;
 }
 
@@ -317,8 +308,8 @@ body {
   align-items: center;
   justify-content: center;
   column-gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 .our-work {
@@ -329,7 +320,7 @@ body {
 }
 
 .portfolio-card {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - (2 * 24px)) / 3);
 }
 
 .portfolio-description {
