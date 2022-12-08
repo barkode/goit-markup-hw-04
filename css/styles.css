@@ -226,7 +226,7 @@ body {
 }
 
 .strategy-text {
-  font-weight: 500;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--body-text-color);
 }
