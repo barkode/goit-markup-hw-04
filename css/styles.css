@@ -58,6 +58,7 @@ button {
   --light-color: #f4f4fd; /* CLOUD */
   --bgrnd-color: #ffffff; /* WHITE */
   --hero-btn-backgroung: #404bbf;
+  --hero-img-background: "../images/p-o.jpg";
 }
 
 body {
@@ -165,6 +166,14 @@ body {
   padding-bottom: 192px;
 
   background-color: var(--dark-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/p-o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
 
   text-align: center;
 }
