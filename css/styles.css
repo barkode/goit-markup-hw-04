@@ -167,19 +167,22 @@ body {
 .hero {
   padding-top: 192px;
   padding-bottom: 192px;
-  max-width: 1440px;
   margin: 0 auto;
 
   background-color: var(--dark-color);
+
+  text-align: center;
+}
+
+.overlay {
+  max-width: 1440px;
+  max-height: 603px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/p-o.jpg");
   background-size: cover;
-  background-clip: padding-box;
-
-  text-align: center;
 }
 
 .hero-header {
@@ -295,8 +298,6 @@ body {
 }
 
 .team-item {
-  padding-top: 32px 16px;
-
   background-color: var(--bgrnd-color);
 
   text-align: center;
@@ -307,13 +308,6 @@ body {
 
 .team-img-descr {
   padding: 32px 16px;
-}
-
-.team-social-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 8px;
 }
 
 .customer {
