@@ -512,15 +512,23 @@ body {
   margin-bottom: 72px;
 }
 
-.our-work {
+.portfolio-work {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 48px 24px;
 }
 
-.portfolio-card {
+.portfolio-card-item {
   flex-basis: calc((100% - (2 * 24px)) / 3);
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-card-item:hover,
+.portfolio-card-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-description {
