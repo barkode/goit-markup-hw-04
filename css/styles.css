@@ -326,6 +326,30 @@ body {
   padding: 32px 16px;
 }
 
+.team-social-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.team-social-link {
+  display: flex;
+  border-radius: 50%;
+  background: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-img {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
 .customer {
   padding-top: 120px;
   text-align: center;
