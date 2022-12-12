@@ -479,15 +479,16 @@ body {
 }
 
 .menu-btn {
-  padding: 8px 16px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color);
   background-color: var(--accent-color);
-  border: 1px solid #e7e9fc;
+  font-family: var(--primary-font);
+  padding: 8px 16px;
   border-radius: 4px;
+  border: 1px solid #e7e9fc;
   font-family: var(--primary-font);
 }
 
