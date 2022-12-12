@@ -264,8 +264,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 112px;
-  width: 264px;
+  padding: 24px 100px;
+  width: 100%;
   background: var(--light-color);
   border-radius: 4px;
 }
