@@ -259,14 +259,19 @@ body {
   color: var(--body-text-color);
 }
 
+.strategy-item {
+  height: 112px;
+  width: 264px;
+}
+
 .strategy-item-link {
   display: flex;
-  width: 100%;
-  height: 112px;
-  background: var(--light-color);
-  border-radius: 4px;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: var(--light-color);
+  border-radius: 4px;
 }
 
 .strategy-item-img {
