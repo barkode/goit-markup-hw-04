@@ -12,4 +12,4 @@
 *.vsix
 
 #test files
-.test/*
+test/
