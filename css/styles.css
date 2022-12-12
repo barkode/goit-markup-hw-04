@@ -374,19 +374,19 @@ body {
   width: 168px;
 }
 
-.customer-menu-link:hover,
-.customer-menu-link:focus {
-  border: 1px solid var(--brand-color);
-}
-
 .customer-menu-img {
   width: 104px;
   height: 56px;
   fill: var(--sub-text-color);
 }
 
-.customer-menu-img:hover,
-.customer-menu-img:focus {
+.customer-menu-link:hover,
+.customer-menu-link:focus {
+  border: 1px solid var(--brand-color);
+}
+
+.customer-menu-link:hover .customer-menu-img,
+.customer-menu-link:focus .customer-menu-img {
   fill: var(--brand-color);
 }
 
