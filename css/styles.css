@@ -1,6 +1,6 @@
-.outline {
+/* .outline {
   outline: 2px solid tomato;
-}
+} */
 /* Reset styles */
 h1,
 h2,
@@ -325,6 +325,17 @@ body {
   align-items: center;
 }
 
+.customer-img {
+  width: 168px;
+  height: 88px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border: 1px solid var(--sub-text-color);
+  border-radius: 4px;
+}
+
 .descr-footer {
   color: var(--accent-color);
   width: 264px;
@@ -338,6 +349,24 @@ body {
   background-color: var(--dark-color);
 }
 
+.social-footer {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+  fill: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-header {
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/* =========== PORTFOLIO ============ */
 .menu-btn {
   padding: 8px 16px;
 
