@@ -364,6 +364,11 @@ body {
   gap: 24px;
 }
 
+.customer-menu-item {
+  height: 88px;
+  width: 168px;
+}
+
 .customer-menu-link {
   display: flex;
   justify-content: center;
@@ -371,8 +376,8 @@ body {
   border-radius: 4px;
   border: 1px solid var(--sub-text-color);
   color: var(--sub);
-  height: 88px;
-  width: 168px;
+  height: 100%;
+  width: 100%;
 }
 
 .customer-menu-img {
