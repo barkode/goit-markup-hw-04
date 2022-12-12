@@ -175,13 +175,13 @@ body {
 
 .overlay {
   max-width: 1440px;
-  max-height: 603px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/p-o.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .hero-header {
@@ -245,7 +245,7 @@ body {
 
 .strategy-header {
   margin-bottom: 8px;
-  padding-top: 8px;
+  margin-top: 8px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -263,11 +263,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 24px;
-  padding-right: 100px;
-  padding-bottom: 24px;
-  padding-left: 100px;
-  width: 100%;
+  height: 112px;
   background: var(--light-color);
   border-radius: 4px;
 }
@@ -340,7 +336,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .team-social-item {
@@ -477,29 +473,33 @@ body {
 }
 
 /* =========== PORTFOLIO ============ */
+.portfolio-page-header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .menu-btn {
   padding: 8px 16px;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color);
   background-color: var(--accent-color);
-  font-family: var(--primary-font);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-
-  border-radius: 4px;
   border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-family: var(--primary-font);
 }
 
 .menu-btn:hover,
 .menu-btn:focus {
   color: var(--bgrnd-color);
   background-color: var(--brand-color);
-  border: 1px solid var(--brand-color);
+  border: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .portfolio-section {
   padding-top: 96px;
 }
