@@ -240,10 +240,6 @@ body {
   padding-bottom: 120px;
 }
 
-.strategy-item {
-  flex-basis: calc((100% - (3 * 24px)) / 4);
-}
-
 .strategy-header {
   margin-bottom: 8px;
   padding-top: 8px;
@@ -264,10 +260,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 100px;
+  padding-top: 24px;
+  padding-right: 100px;
+  padding-bottom: 24px;
+  padding-left: 100px;
   width: 100%;
   background: var(--light-color);
   border-radius: 4px;
+}
+
+.strategy-item {
+  flex-basis: calc((100% - (3 * 24px)) / 4);
 }
 
 .strategy-item-img {
@@ -323,7 +326,10 @@ body {
 }
 
 .team-img-descr {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .team-social-menu {
