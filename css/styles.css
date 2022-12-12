@@ -414,6 +414,11 @@ body {
   align-items: center;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--success-color);
+}
+
 .footer-social-img {
   width: 24px;
   height: 24px;
