@@ -333,14 +333,19 @@ body {
   margin-top: 8px;
 }
 
-.team-social-link {
-  display: flex;
-  border-radius: 50%;
-  background: var(--brand-color);
+.team-social-item {
   width: 40px;
   height: 40px;
+}
+
+.team-social-link {
+  display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background: var(--brand-color);
+  width: 100%;
+  height: 100%;
 }
 
 .team-social-img {
@@ -361,7 +366,7 @@ body {
 .customer-menu {
   display: flex;
   align-items: center;
-  gap: 24px;
+  column-gap: 24px;
 }
 
 .customer-menu-item {
@@ -424,7 +429,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  column-gap: 16px;
 }
 
 .footer-social-item {
@@ -434,12 +439,12 @@ body {
 
 .footer-social-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-social-link:hover,
