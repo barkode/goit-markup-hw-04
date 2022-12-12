@@ -61,7 +61,6 @@ button {
   --light-color: #f4f4fd; /* CLOUD */
   --bgrnd-color: #ffffff; /* WHITE */
   --hero-btn-backgroung: #404bbf;
-  --hero-img-background: "../images/p-o.jpg";
 }
 
 body {
@@ -337,7 +336,7 @@ body {
 .team-social-link {
   display: flex;
   border-radius: 50%;
-  background: #4d5ae5;
+  background: var(--brand-color);
   width: 40px;
   height: 40px;
   justify-content: center;
@@ -347,7 +346,7 @@ body {
 .team-social-img {
   width: 16px;
   height: 16px;
-  fill: #f4f4fd;
+  fill: var(--light-color);
 }
 
 .customer {
@@ -418,7 +417,7 @@ body {
 .footer-social-img {
   width: 24px;
   height: 24px;
-  fill: white;
+  fill: var(--light-color);
 }
 
 .footer-social-header {
@@ -426,7 +425,7 @@ body {
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--bgrnd-color);
 }
 
 /* =========== PORTFOLIO ============ */
