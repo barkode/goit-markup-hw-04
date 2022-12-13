@@ -523,13 +523,18 @@ body {
 }
 
 .portfolio-card-item {
+  display: flex;
   flex-basis: calc((100% - (2 * 24px)) / 3);
+}
+
+.portfolio-card-link {
+  width: 100%;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-card-item:hover,
-.portfolio-card-item:focus {
+.portfolio-card-link:hover,
+.portfolio-card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
